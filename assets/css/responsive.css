@@ -1,0 +1,167 @@
+/* =========================
+   TABLET
+========================= */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* HERO */
+
+  .hero__inner {
+    flex-direction: column;
+    row-gap: 80px;
+  }
+
+  .hero__content {
+    text-align: center;
+  }
+
+  .hero__desc {
+    width: 100%;
+  }
+
+  .hero__row {
+    justify-content: center;
+  }
+
+  /* ABOUT */
+
+  .about__inner {
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+  }
+
+  .about__heading,
+  .about__desc,
+  .about__desc-bottom {
+    width: 100%;
+  }
+
+  .about__img-wrap {
+    margin: 0 auto;
+  }
+
+  /* SERVICE */
+
+  .service__body {
+    grid-template-columns: 1fr;
+  }
+
+  .service__media {
+    order: -1;
+  }
+
+  /* STAFF */
+
+  .staff__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+  }
+
+  /* PRICING */
+
+  .pricing__desc {
+    width: 100%;
+  }
+
+  .pricing__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+
+  /* REVIEW */
+
+  .review__inner {
+    flex-direction: column;
+  }
+
+  .review-item {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .review-item__quote {
+    width: 100%;
+  }
+
+  /* BLOG */
+
+  .blog__top {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .blog__info {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .blog__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+
+  /* FOOTER */
+
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .footer__left {
+    width: 100%;
+  }
+
+  .footer__row {
+    margin-left: 0;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767.98px) {
+  /* HERO */
+
+  .hero__heading {
+    font-size: 3.8rem;
+    line-height: 1.2;
+  }
+
+  .hero__img-wrap-small,
+  .hero__list {
+    display: none;
+  }
+
+  /* ABOUT */
+
+  .about__checklist {
+    grid-template-columns: 1fr;
+  }
+
+  /* STAFF */
+
+  .staff__list {
+    grid-template-columns: 1fr;
+  }
+
+  /* PRICING */
+
+  .pricing__list {
+    grid-template-columns: 1fr;
+  }
+
+  /* BLOG */
+
+  .blog__list {
+    grid-template-columns: 1fr;
+  }
+
+  /* FOOTER */
+
+  .footer__row {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe-form {
+    width: 100%;
+  }
+}

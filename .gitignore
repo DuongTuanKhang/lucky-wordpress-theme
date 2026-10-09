@@ -1,0 +1,10 @@
+@'
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+'@ | Set-Content -Encoding utf8 .gitignoregit init
